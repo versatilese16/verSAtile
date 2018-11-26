@@ -1,2 +1,36 @@
 h1 {color: red;
 }
+
+.header {
+	color: red;
+	text-align: center;
+} 
+
+.footer {
+	color: blue;
+	text-align: center;
+}
+
+.onebox {
+	color: black;
+}
+
+.threebox {
+	background: green;
+	color: white
+	margin: 20px;
+	padding: 20px;
+	text-align: center;
+}	
+
+.threeboxarrange {
+	display: inline;
+}
+
+ul li {
+	display: inline;
+	background: black;
+	color: white;
+	padding: 5px;
+	margin: 10px
+}
