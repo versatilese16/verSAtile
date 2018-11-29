@@ -1,36 +1,33 @@
-h1 {color: red;
-}
+body {
+	padding-top: 70px;
+	padding-bottom: 30px;
+  }
+  
+  .theme-dropdown .dropdown-menu {
+	position: static;
+	display: block;
+	margin-bottom: 20px;
+  }
+  
+  .theme-showcase > p > .btn {
+	margin: 5px 0;
+  }
+  
+  .theme-showcase .navbar .container {
+	width: auto;
+  }
 
-.header {
-	color: red;
-	text-align: center;
-} 
+  .jumbotron {
+	padding-top: 50px;
+	padding-bottom: 20px;
+  }
 
-.footer {
-	color: blue;
-	text-align: center;
-}
-
-.onebox {
-	color: black;
-}
-
-.threebox {
-	background: green;
-	color: white
-	margin: 20px;
-	padding: 20px;
-	text-align: center;
-}	
-
-.threeboxarrange {
-	display: inline;
-}
-
-ul li {
-	display: inline;
-	background: black;
-	color: white;
-	padding: 5px;
-	margin: 10px
-}
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    color: grey;
+    text-align: left;
+ }
