@@ -6,19 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Head2Tail</title>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  </head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 
   <body>
     <div class="container">
-      <div class="page-header">
-        <h1>Head2Tail</h1>
-        <p>Pet accessories for every occassion</p>
+      <div class="col-md-8">
+        <!--ig/fb/twitter buttons-->
       </div>
-      
+      <div class="col-md-4">
+        <div class="searchbar">
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <h1>Head2Tail</h1>
+          <p>Pet accessories for every occassion</p>
+        </div>
+      <div class="col-md-4">
+          <!--shopping basket icon-->
+      </div>
+      </div>
+    </div>
+
+  <div class="container">
       <div class="jumbotron">
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores doloremque placeat commodi tenetur dolore hic maiores, minus vitae voluptate natus repellat, obcaecati ipsam amet. Labore voluptatem perspiciatis odio non iure.</p>
       </div>
-      
+
       <div id="theCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
@@ -43,7 +66,8 @@
         <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
           <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
           <span class="sr-only">Next</span></a>
-</div>
+    </div>
+  </div>
 
 <div class="container">
     <h2>Shop by accessory type</h2>
@@ -110,18 +134,26 @@
             </div>
     </div>
   </div>
-
+</div>
 <div class="footer">
   <ul>
-    <li>Contact us</li>
-    <li>Shipping</li>
-    <li>FAQs</li>
+    <li><a href="/about-us.html">About us</a></li>
+    <li><a href="/contact.html">Contact us</a></li>
+    <li class="fakehyperlink">Shipping</li>
+    <li class="fakehyperlink">FAQs</li>
   </ul>
-    </div>
-
+  <div class="popup">
+    <p>Subscribe to our newletter + get updates for new arrivals</p>
+    <form>
+      Email
+      <input type="text" name="email">
+    </form>
+  </div>
+  <p class="smalltext">team versatile (c) 2018</p>
 </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
   </body>
 </html>
