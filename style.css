@@ -80,4 +80,12 @@ form {
 .thumbnail {
 	width: 320px;
 	height: 320px;
+	position: relative;
+}
+
+.caption {
+	position: absolute;
+	float: left;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, .5);
 }
