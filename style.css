@@ -76,3 +76,17 @@ form {
 	color: #4678b2;
 	text-decoration: underline;
 }
+
+#logo {
+ height: 250px;
+ width: 450px;
+}
+
+#pig {
+	width: 400px;
+ }
+
+ .jumbotron {
+	 margin: 20px;
+ }
+
