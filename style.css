@@ -76,3 +76,8 @@ form {
 	color: #4678b2;
 	text-decoration: underline;
 }
+
+.thumbnail {
+	width: 320px;
+	height: 320px;
+}
