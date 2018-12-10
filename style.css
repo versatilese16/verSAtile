@@ -106,7 +106,8 @@ form {
 .fa-shopping-cart {
 color: #696969;
 border: none;
-padding: 12px 16px;
-font-size: 16px;
+padding: 5px 5px;
+width: 30px;
+font-size: 10px;
 cursor: pointer;
 }
