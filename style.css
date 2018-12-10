@@ -102,3 +102,11 @@ form {
 	background: #125688;
 	color: white;
 }
+
+.fa-shopping-cart {
+color: #696969;
+border: none;
+padding: 12px 16px;
+font-size: 16px;
+cursor: pointer;
+}
