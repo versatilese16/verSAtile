@@ -27,21 +27,46 @@
 </div>
 <div class="footer">
   <ul>
-    <li><a href="/about-us.html">About us</a></li>
-    <li><a href="/contact.html">Contact us</a></li>
+    <li><a href="aboutus.html">About us</a></li>
+    <li><a href="contact.html">Contact us</a></li>
     <li class="fakehyperlink">Shipping</li>
     <li class="fakehyperlink">FAQs</li>
   </ul>
-  <div class="popup">
-    <p>Subscribe to our newletter + get updates for new arrivals</p>
-    <form>
-      Email
-      <input type="text" name="email">
-    </form>
+  <div><button id="subscribe">Subscribe</button>
+    <div id="popup">
+     <div class="popuptext">
+       <h1>Subscribe to our newsletter!</h1>
+       <p>Subscribe to our newletter + get updates for new arrivals</p>
+        <form>
+          Email<input type="text" name="email">
+        </form>
+        <span class="popupclose">Close</span>
+     </div>
+    </div>
   </div>
-  <p class="smalltext">team versatile (c) 2018</p>
+  <div class="smalltext">team versatile (c) 2018</p>
+  </li>
 </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<script>
+	var modal = document.getElementById("popup");
+	var btn = document.getElementById("subscribe");
+	var span = document.getElementsByClassName("popupclose")[0];
+
+  btn.onclick = function() {
+  modal.style.display = "block";
+}
+  span.onclick = function() {
+		modal.style.display = "none";
+	}
+	window.onclick = function(event) {
+	if (event.target == modal) {
+		modal.style.display = "none";
+		}
+	}
+  </script>
+  </body>
 </html>
