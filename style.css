@@ -172,6 +172,7 @@ padding: 5px 5px;
 width: 30px;
 font-size: 10px;
 cursor: pointer;
+float: right;
 }
 
 .contactBody {
