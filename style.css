@@ -78,6 +78,41 @@ form {
 	text-decoration: underline;
 }
 
+/* Style all font social buttons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Set a specific color for each social button */
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+	background: #125688;
+	color: white;
+}
+
+.fa-shopping-cart {
+color: #696969;
+border: none;
+padding: 5px 5px;
+width: 30px;
+font-size: 10px;
+cursor: pointer;
+}
+
 .contactBody {
   padding-top: 40px;
   padding-bottom: 40px;
