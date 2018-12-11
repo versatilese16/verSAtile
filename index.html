@@ -75,9 +75,10 @@
       <div class="col-md-4">
         <div class="thumbnail">
           <a href="/w3images/lights.jpg" target="_blank">
-            <img src="https://github.com/versatilese16/verSAtile/blob/master/img/zcute-snakes-wear-hats-106__700.jpg?raw=true" alt="Hats" style="width:100%">
+            <img src="https://github.com/versatilese16/verSAtile/blob/master/00hat.jpg?raw=true" alt="Hats" style="width:100%">
             <div class="caption">
-              <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+              <p class="pcaptiontitle">Hats</p>
+              <p class="pcaption">ipsum donec id elit non mi porta gravida at eget metus.</p>
             </div>
           </a>
         </div>
@@ -85,9 +86,10 @@
       <div class="col-md-4">
         <div class="thumbnail">
           <a href="/w3images/nature.jpg" target="_blank">
-            <img src="https://github.com/versatilese16/verSAtile/blob/master/img/zmarutaro.jpg?raw=true" alt="Scarves" style="width:100%">
+            <img src="https://github.com/versatilese16/verSAtile/blob/master/00scarf.jpg?raw=true" alt="Scarves" style="width:100%">
             <div class="caption">
-              <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+              <p class="pcaptiontitle">Scarves</p>
+              <p class="pcaption">all sizes for chilly weather</p>
             </div>
           </a>
         </div>
@@ -95,9 +97,10 @@
       <div class="col-md-4">
         <div class="thumbnail">
           <a href="/w3images/fjords.jpg" target="_blank">
-            <img src="https://github.com/versatilese16/verSAtile/blob/master/img/stickers-black-cat-sitting-down-looking-to-the-right.jpg?raw=true" alt="Shoes" style="width:100%">
+            <img src="`https://github.com/versatilese16/verSAtile/blob/master/00collar.jpg?raw=true`" alt="Collars" style="width:100%">
             <div class="caption">
-              <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+              <p class="pcaption">Collars</p>
+              <p class="pcaptiontitle"> donec id elit non mi po.</p>
             </div>
           </a>
         </div>
@@ -105,9 +108,10 @@
       <div class="col-md-4">
           <div class="thumbnail">
             <a href="/w3images/fjords.jpg" target="_blank">
-              <img src="https://github.com/versatilese16/verSAtile/blob/master/img/zmarutaro.jpg?raw=true" alt="Glasses" style="width:100%">
+              <img src="https://github.com/versatilese16/verSAtile/blob/master/00goggles.jpg?raw=true" alt="Glasses" style="width:100%">
               <div class="caption">
-                <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                <p class="pcaptiontitle">Goggles</p>
+                <p class="pcaption">donec id elit non mi porta gravida at eget metus.</p>
               </div>
             </a>
           </div>
@@ -115,9 +119,9 @@
         <div class="col-md-4">
             <div class="thumbnail">
               <a href="/w3images/fjords.jpg" target="_blank">
-                <img src="https://github.com/versatilese16/verSAtile/blob/master/img/zCute-Akita-puppies.jpg?raw=true" alt="Waistcoats" style="width:100%">
+                <img src="https://github.com/versatilese16/verSAtile/blob/master/00clothes.jpg?raw=true" alt="Sweaters" style="width:100%">
                 <div class="caption">
-                  <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                  <p class="pcaption">Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
                 </div>
               </a>
             </div>
@@ -125,9 +129,10 @@
           <div class="col-md-4">
               <div class="thumbnail">
                 <a href="/w3images/fjords.jpg" target="_blank">
-                  <img src="https://github.com/versatilese16/verSAtile/blob/master/img/z359F504CB41057852200011427840_1.4.11244094081651665228.mp4.jpg?raw=true" alt="Gloves" style="width:100%">
+                  <img src="https://github.com/versatilese16/verSAtile/blob/master/00sock.jpg?raw=true" alt="Gloves" style="width:100%">
                   <div class="caption">
-                    <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                    <p class="pcaptiontitle">Socks, Shoes, Gloves</p>
+                    <p class="pcaption">stave off cold paws</p>
                   </div>
                 </a>
               </div>
@@ -142,19 +147,42 @@
     <li class="fakehyperlink">Shipping</li>
     <li class="fakehyperlink">FAQs</li>
   </ul>
-  <div class="popup">
-    <h1>Subscribe to our newsletter!</h1>
-    <p>Subscribe to our newletter + get updates for new arrivals</p>
-    <form>
-      Email
-      <input type="text" name="email">
-    </form>
+  <div><button id="subscribe">Subscribe</button>
+    <div id="popup">
+     <div class="popuptext">
+       <h1>Subscribe to our newsletter!</h1>
+       <p>Subscribe to our newletter + get updates for new arrivals</p>
+        <form>
+          Email<input type="text" name="email">
+        </form>
+        <span class="popupclose">Close</span>
+     </div>
+    </div>
   </div>
-  <p class="smalltext">team versatile (c) 2018</p>
+  <div class="smalltext">team versatile (c) 2018</p>
+  </li>
 </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<script>
+	var modal = document.getElementById("popup");
+	var btn = document.getElementById("subscribe");
+	var span = document.getElementsByClassName("popupclose")[0];
+
+  btn.onclick = function() {
+  modal.style.display = "block";
+}
+  span.onclick = function() {
+		modal.style.display = "none";
+	}
+	window.onclick = function(event) {
+	if (event.target == modal) {
+		modal.style.display = "none";
+		}
+	}
+	</script>
 
   </body>
 </html>
